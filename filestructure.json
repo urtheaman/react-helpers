@@ -1,0 +1,30 @@
+{
+  "name": "src",
+  "folders": [
+    {
+      "name": "app",
+      "files": ["store.ts"]
+    },
+    {
+      "name": "features",
+      "folders": [
+        {
+          "name": "counter",
+          "files": ["counter.ts"]
+        },
+        {
+          "name": "posts"
+        }
+      ]
+    }
+  ],
+  "files": [
+    "App.css",
+    "App.tsx",
+    "favicon.svg",
+    "index.css",
+    "logo.svg",
+    "main.tsx",
+    "vite-env.d.ts"
+  ]
+}
