@@ -24,7 +24,7 @@ const Unfold: React.FC<{ args: Structure }> = ({ args }): any => {
             <Unfold key={el.name} args={el} />
           ))}
           {args?.files?.map((val) => (
-            <li>{val}</li>
+            <li key={val}>{val}</li>
           ))}
         </ul>
       </>
