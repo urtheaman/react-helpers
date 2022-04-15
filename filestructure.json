@@ -16,6 +16,10 @@
           "name": "posts"
         }
       ]
+    },
+    {
+      "name": "file-structures",
+      "files": ["Unfold.ts"]
     }
   ],
   "files": [
