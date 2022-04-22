@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 
 const Modal: React.FC<{
   className?: string;
-  showModal: (arg: false | string) => any;
+  showModal: (arg: false | ReactNode) => any;
   children: ReactNode;
 }> = ({
   children,
